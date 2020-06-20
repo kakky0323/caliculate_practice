@@ -45,3 +45,8 @@
     width:100px;
   }
  }
+ol{
+  border:dashed 2px black;
+  width:250px;
+  padding:20px 0px 20px 30px;
+}
