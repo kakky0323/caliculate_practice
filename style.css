@@ -1,10 +1,11 @@
+*{
+  float:none;
+  position:static;
+}
 .textbox{
-  width:120px;
   text-align:right;
-  margin-bottom:5px;
 }
 .button{
-  width:65px;
   text-align:center;
   border-radius:10px;
   transition:0.5s;
@@ -20,3 +21,27 @@
 .button:focus{
   outline:0;
 }
+
+@media screen and (max-width:480px){
+ .textbox{
+   display:block;
+   width:200px;
+   margin:6px 16px;
+ }
+ .kigou{
+   margin:6px 16px;
+ }
+ .button{
+   margin:2px 14px;
+   width:65px;
+ }
+}
+@media screen and (min-width:481px){
+  .textbox{
+    width:200px;
+    margin-bottom:5px;
+  }
+  .button{
+    width:100px;
+  }
+ }
